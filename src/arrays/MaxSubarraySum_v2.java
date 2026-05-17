@@ -1,4 +1,4 @@
-package strings;
+package arrays;
 
 public class MaxSubarraySum_v2 {
     public static void main(String[] args)  {

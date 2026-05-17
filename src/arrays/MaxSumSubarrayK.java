@@ -1,6 +1,4 @@
-package strings;
-
-import java.util.HashSet;
+package arrays;
 
 public class MaxSumSubarrayK {
     public static void main(String[] args)  {
@@ -10,8 +8,6 @@ public class MaxSumSubarrayK {
         int left = 0;
         int sum = 0;
         int maxcount = 0;
-
-        HashSet<Integer> set = new HashSet<>();
 
         for(int right = k-1; right <arr.length; right++)    {
 
