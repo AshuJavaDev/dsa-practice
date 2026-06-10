@@ -1,0 +1,13 @@
+package recursion;
+
+public class P50_Factorial {
+        static int product(int n)   {
+            if(n==0)  return 1;
+            return n * product(n-1);
+        }
+
+        public static void main(String[] args)  {
+            int result = product(5);
+            System.out.println(result);
+        }
+    }
