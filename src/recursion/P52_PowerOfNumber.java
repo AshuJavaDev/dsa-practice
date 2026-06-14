@@ -6,6 +6,7 @@ public class P52_PowerOfNumber {
         return a* power(a,b-1);
         }
 
+
         public static void main(String[] args)       {
             System.out.println(power(2,5));
         }
