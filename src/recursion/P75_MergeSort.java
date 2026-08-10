@@ -9,7 +9,7 @@ public class P75_MergeSort {
          mergeSort(arr, mid + 1, right);
          merge(arr, left, mid, right);
 
-     }
+      }
 
      static void merge(int[] arr, int left, int mid, int right)  {
          int[] leftArr = new int[mid-left+1];
